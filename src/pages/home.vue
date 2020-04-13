@@ -227,7 +227,7 @@ export default {
             scaleColors: ['#C8EEFF', '#006491'],
             normalizeFunction: 'polynomial',
             onRegionClick(element, code, region){
-              this.country = region;
+              vm.country = region;
             },
             onRegionSelect(element, code, region){
               vm.loadCountryData(code.toUpperCase());
